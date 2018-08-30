@@ -9,8 +9,8 @@
 ## How to use
 ### Metadata (e.g., Metadata/BR_PSNR_6f1x1_low_delay_300Fr.txt)
 * Provide the information (i.e., bitrate, PSNR, and MSE values) of tiles' versions
+
 ### Algorithm BellLab (code: Functions/F_BellLab.m)
-* 
 * Input
   - Double Fh          : Horizontal Field of View
   - Double Fv          : Vertical Field of View
@@ -28,12 +28,15 @@
   - Array  HB_tile_H   : Higher vertical boundaries of Tiles (to determine the position of each tile)
   - Array  Uti         : Marginal utility values of Tiles' Versions 
   - Array  Cti         : Marginal costs of Tiles' Versions 
+  
 * Output
   - Array  T           : Selected Versions for Tiles
   - Double current_BW  : Total bitrate of selected versions
   - Array  m_ & n_     : Position on ERP format of points on viewport (i.e., Each point (i,j) on viewport coresponds to the point of (m_(i,j),n(i,j)) on ERP format.)
   - Array  P           : Feature of Tiles (i.e., P(i) = 1 -> Tile i is visible | P(i)=0 -> Tile i is invisible) 
   
+* Example: BellLab_allBw_8x8.m shows an example of the use of the function F_BellLab. 
+
 ### Algorithm France (code: Functions/F_France_Cube.m)
 * Input
   - Double Fh          : Horizontal Field of View
@@ -59,6 +62,8 @@
   - Array  N_ft        : Number of pixels on viewport rounded from each tile (i.e., N_ft(f,t): number of pixels on viewport rounded from tile t of face f)
   - Array  v_sel       : Selected Versions for Tiles
   - Double TB_sel      : Total bitrate of selected versions
+  
+* Example: France_Cube_allBw_6face.m shows an example of the use of the function F_France_Cube. 
 
 ### Algorithm ROI (code: Functions/F_ROI_BG_Cube.m)
 * Input
@@ -85,6 +90,7 @@
   - Array  T           : Selected Versions for Tiles
   - Double sel_BR      : Total bitrate of selected versions	
 
+* Example: ROI_BG_Cube_allBw_6face1x1.m shows an example of the use of the function F_ROI_BG_Cube. 
 
 
 ## Authors
