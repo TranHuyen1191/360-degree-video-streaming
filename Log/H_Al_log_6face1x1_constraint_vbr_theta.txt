@@ -1,0 +1,2 @@
+PSNR_est	T_e	angle_theta	Vf1t1	Vf2t1	Vf3t1	Vf4t1	Vf5t1	Vf6t1	curT_e	Sf1t1	Sf2t1	Sf3t1	Sf4t1	Sf5t1	Sf6t1	
+38	2000	195	1	4	1	2	1	1	1978	0	696768	0	186824	19004	19004	

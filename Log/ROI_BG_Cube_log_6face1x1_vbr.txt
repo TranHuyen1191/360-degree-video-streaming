@@ -1,0 +1,2 @@
+BW	angle	Vf1t1	Vf2t1	Vf3t1	Vf4t1	Vf5t1	Vf6t1	curBW	Sf1t1	Sf2t1	Sf3t1	Sf4t1	Sf5t1	Sf6t1	
+2000	0	4	1	1	1	1	1	1913	921600	0	0	0	0	0	
