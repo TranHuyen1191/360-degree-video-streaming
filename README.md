@@ -101,9 +101,11 @@
 
 If you use this source code in your research, please cite
 
-1. The link to this repository.
-2. P. R. Alface, J. Macq and N. Verzijp, "Interactive omnidirectional video delivery: A bandwidth-effective approach," in Bell Labs Technical Journal, vol. 16, no. 4, pp. 135-147, March 2012.
-3. X. Corbillon, G. Simon, A. Devlic and J. Chakareski, "Viewport-adaptive navigable 360-degree video delivery," 2017 IEEE International Conference on Communications (ICC), Paris, 2017, pp. 1-7.
+1. P. R. Alface, J. Macq and N. Verzijp, "Interactive omnidirectional video delivery: A bandwidth-effective approach," in Bell Labs Technical Journal, vol. 16, no. 4, pp. 135-147, March 2012.
+2. X. Corbillon, G. Simon, A. Devlic and J. Chakareski, "Viewport-adaptive navigable 360-degree video delivery," 2017 IEEE International Conference on Communications (ICC), Paris, 2017, pp. 1-7.
+3. Huyen T. T. Tran, Duc V. Nguyen, Nam P. Ngoc, T. C. Thang, “A Tile-based Solution using Cubemap for Viewport-adaptive 360-degree Video Delivery”, IEICE Transactions on Communications, Special Section on Communication Technologies and Service Qualities in Various Access
+Networks, Vol.E102-B, No.7, pp.-, Jul. 2019.
+4. D. V. Nguyen, Huyen T. T. Tran, Anh T. Pham, Truong Cong Thang, “An Optimal Tile-based Approach for Viewport-adaptive 360-degree Video Streaming”, IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Special Issue on Immersive Video Coding and Transmission, Feb. 2019. (DOI: 10.1109/JETCAS.2019.2899488)
 
 ## License
 
